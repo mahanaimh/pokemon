@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#title{
+    /* box-shadow: 20px 20px 20px 20px gray; */
+    text-align: center; 
+} 
+
+#wrapper{
+    background-color: red;
+}
+.container{
+    background-color: white;
+    width: 800px;
+    border: 2px solid black;
+    height: 500px;
+    overflow: scroll;
+    margin: 30px;
+    display: inline-block;
+}
+#dex{
+    width: 300px;
+    height: 500px;
+    background-color: red;;
+    display: inline-block;
+    vertical-align: top;
+    padding:35px;
+}
+#screen{
+    background-color: white;
+    width: 250px;
+    height: 450px;
+    padding: 20px;
+    padding-left: 40px;
+    box-shadow: 10px 10px 10px 0px  darkred;
+}
+.screen2{
+    background-color: white;
+    width: 225px;
+    height: 450px;
+    overflow: scroll;
+}
