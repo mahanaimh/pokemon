@@ -1,7 +1,8 @@
 // $(document).ready(function(){
 function loadImages(){
     for(var i = 1; i <=386; i++){
-        var pokeImg = "<img src= 'https://pokeapi.co/media/img/" + i + ".png' data-pokenum='" + i + "'>";
+        var pokeImg = "<img src= 'https://assets.pokemon.com/assets/cms2/img/pokedex/detail/"+ i + ".'png'>";
+        // var pokeImg = "<img src= 'https://pokeapi.co/media/img/" + i + ".png' data-pokenum='" + i + "'>";
         // var pokeImg = "<img src= 'https://www.serebii.net/pokemongo/pokemon/" + i + ".png' data-pokenum='" + i + "'>";
         $('.container').append(pokeImg)
     }
